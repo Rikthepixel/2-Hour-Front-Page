@@ -18,3 +18,6 @@
 I have hosted the end product on github pages. It isn't the best looking website, but I am pretty happy with the result!
 
 https://rikthepixel.github.io/2-Hour-Front-Page/
+
+
+**note:** This repository will stay as is and will never be edited again (hence why it is archived), otherwise it would defeat the purpose of the challenge 😋. 
