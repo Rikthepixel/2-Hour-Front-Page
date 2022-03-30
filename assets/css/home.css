@@ -1,0 +1,124 @@
+.home-splash {
+    position: relative;
+}
+
+.home-splash>header {
+    position: absolute;
+    padding: 1rem;
+}
+
+.home-splash>img {
+    max-height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-main-splash>header {
+    font-size: 2rem;
+}
+
+.home-popular {
+    margin-top: 3rem;
+}
+
+.home-popular>header {
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.25rem;
+}
+
+.home-popular-items {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+@media (max-width: 900px) {
+    .home-popular-items {
+        flex-wrap: wrap;
+    }
+}
+
+.home-popular-items .product {
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    border-radius: 0.25rem;
+
+    background-color: var(--accent);
+    color: var(--accent-text);
+
+    width: 100%;
+    align-self: stretch;
+
+    box-shadow: 0.2em 0.1em 1em 0.05em rgb(199, 199, 199);
+}
+
+.home-popular-items .product-image {
+    object-fit: cover;
+
+    height: 25rem;
+    width: 100%;
+}
+
+.home-popular-items .product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0.5rem;
+}
+
+.home-popular-items .product-title {
+    color: var(--main);
+
+    font-weight: 800;
+    font-size: 1.25rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.home-popular-items .product-price {
+    font-weight: 600;
+    font-size: 1.1rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.home-popular-items .product-actions {
+    padding-top: 0.5rem;
+    display: flex;
+    gap: 0.25rem;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-wrap: wrap;
+}
+
+.home-popular-items .product-amount {
+    border-radius: 0.25rem;
+    box-shadow: 0.1em 0.1em 0.6em 0.02em rgb(199, 199, 199);
+}
+
+.home-popular-items .product-amount>span {
+    min-width: 1.5em;
+}
+
+.home-popular-items .product-amount>button {
+    width: 2em;
+    height: 2em;
+}
+
+.home-popular-items .product-cart {
+    height: 2em;
+    box-shadow: 0.1em 0.1em 0.6em 0.02em rgb(199, 199, 199);
+}

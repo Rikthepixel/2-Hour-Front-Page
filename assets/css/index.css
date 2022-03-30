@@ -1,0 +1,9 @@
+:root {
+    --main: rgb(56, 109, 59);
+    --main-text: #fff;
+
+    --accent: #f0f0f0;
+    --accent-text: #000;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
